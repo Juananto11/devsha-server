@@ -1,0 +1,52 @@
+{
+  "name": "devsha-server",
+  "version": "0.1.0",
+  "description": "Servidor para el proyecto devsha ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Juananto11/devsha-server.git"
+  },
+  "keywords": [
+    "Node.js",
+    "Mongodb",
+    "Express",
+    "Mongoose",
+    "server-side"
+  ],
+  "author": "Juananto11 <juananto11@hotmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Juananto11/devsha-server/issues"
+  },
+  "homepage": "https://github.com/Juananto11/devsha-server#readme",
+  "dependencies": {
+    "bcrypt-nodejs": "^0.0.3",
+    "body-parser": "^1.18.2",
+    "connect-mongo": "^2.0.1",
+    "connect-multiparty": "^2.1.0",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "jsonwebtoken": "^8.2.1",
+    "moment": "^2.22.0",
+    "mongoose": "^5.0.13",
+    "morgan": "^1.9.0",
+    "nodemailer": "^4.6.4",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "socket-io": "^1.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^5.0.5",
+    "nodemon": "^1.17.3",
+    "should": "^13.2.1",
+    "supertest": "^3.0.0"
+  }
+}
